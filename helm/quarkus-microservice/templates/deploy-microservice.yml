@@ -10,7 +10,7 @@ metadata:
     name: {{.Release.Name}}-microservice
     namespace: microservices
 spec:
-    replicas: 3
+    replicas: 2
     selector:
         matchLabels:
             run: {{.Release.Name}}-microservice
